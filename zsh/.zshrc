@@ -18,3 +18,5 @@ export PATH="/Users/mikeliang/.codeium/windsurf/bin:$PATH"
 
 
 export GPG_TTY=$(tty)
+
+. "$HOME/.local/bin/env"
