@@ -1,0 +1,14 @@
+[user]
+	name = Mike Liang
+	email = mlian031@uottawa.ca
+	signingkey = 5EF4E24DC5BB5071
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[core]
+	editor = nvim
+[color]
+	ui = auto
+[commit]
+	gpgsign = true
