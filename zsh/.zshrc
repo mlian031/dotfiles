@@ -1,7 +1,7 @@
 fastfetch
 
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-  eval "$(oh-my-posh init zsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/1_shell.omp.json)"
+  eval "$(oh-my-posh init zsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/catppuccin_mocha.omp.json)"
 fi
 
 
@@ -20,3 +20,9 @@ export PATH="/Users/mikeliang/.codeium/windsurf/bin:$PATH"
 export GPG_TTY=$(tty)
 
 . "$HOME/.local/bin/env"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/mikeliang/.lmstudio/bin"
+# End of LM Studio CLI section
+
+export PATH="$HOME/.local/bin:$PATH"
