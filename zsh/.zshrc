@@ -23,3 +23,5 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # Added by Windsurf
 export PATH="/Users/mikeliang/.codeium/windsurf/bin:$PATH"
+
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
